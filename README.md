@@ -2,7 +2,9 @@
 Amazon Lex V2 Demos
 This is a sample Lex V2 project that shows off a number of capabilities of Amazon Lex for creating conversational AI
 If you don't have an aws account sign up here:
+
 [AWS Free Tier](https://aws.amazon.com/free/)
+
 [AWS Educate if you don't have a credit card](https://www.awseducate.com/Registration)
 
 Once you have an account go here to see the Amazon Lex console
@@ -38,7 +40,7 @@ after "BUILD SUCCESSFUL" the file to upload to AWS Lambda is ```LexV2LambdaDemo-
 0. make sure to have [lombok for intellij](https://projectlombok.org/setup/intellij) installed, and annotation processing is enabled (File ->Settings -> search for annotation processors-> check Enable annotation processing)
 
 1. in intelij, select File>New> Project from existing sources...
-2. select ``{repo directory}/LexV2LambdaDemoJava/build.gradle```
+2. select ```{repo directory}/LexV2LambdaDemoJava/build.gradle```
 ### to import into eclipse
 0. make sure to have [lombok for eclipse](https://projectlombok.org/setup/eclipse) installed, and annotation proccessing is enabled (project properties -> Annotation Processing -> check Enable annotation processing)
 
@@ -52,5 +54,7 @@ after "BUILD SUCCESSFUL" the file to upload to AWS Lambda is ```LexV2LambdaDemo-
 
 
 ## Python Lambda
+the python aws lambda code in ```LexV2LambdaDemoPython``` directory is all contained in a single ```lambda_function.py``` use your favorite text/code editor or AWS provides an online editor within AWS Lambda console itself for python
+
 
 
