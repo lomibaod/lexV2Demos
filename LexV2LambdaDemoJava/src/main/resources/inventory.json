@@ -1,0 +1,65 @@
+[
+{
+    "make":"Lexus",
+    "color":"Blue",
+    "type":"SUV",
+    "model": "GX",
+    "year": 2021,
+    "price": "$50000",
+    "inventory": 3
+},
+{
+    "make":"Lexus",
+    "color":"Black",
+    "type":"SUV",
+    "model": "GX",
+    "year": 2021,
+    "price": "$50000",
+    "inventory": 1
+},
+{
+    "make":"Toyota",
+    "color":"Silver",
+    "type":"Car",
+    "model": "Camry",
+    "year": 2021,
+    "price": "$30000",
+    "inventory": 2
+},
+{
+    "make":"Toyota",
+    "color":"Green",
+    "type":"Car",
+    "model": "Camry",
+    "year": 2021,
+    "price": "$30000",
+    "inventory": 2
+},
+{
+    "make":"Toyota",
+    "color":"Grey",
+    "type":"Truck",
+    "model": "Tundra",
+    "year": 2021,
+    "price": "$35000",
+    "inventory": 2
+},
+{
+    "make":"Toyota",
+    "color":"Black",
+    "type":"Truck",
+    "model": "Tundra",
+    "year": 2021,
+    "price": "$35000",
+    "inventory": 2
+},
+{
+    "make":"Toyota",
+    "color":"Red",
+    "type":"Truck",
+    "model": "Tundra",
+    "year": 2021,
+    "price": "$35000",
+    "inventory": 2
+}
+]

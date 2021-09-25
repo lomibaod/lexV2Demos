@@ -1,3 +1,12 @@
+# Lex V2 Lambda Demo Java 11
+
+this project uses
+- [Micronaut Framework](https://micronaut.io/): provides compile time dependency injection and support for GraalVM native images for instant cold start times in AWS Lambda
+- [Project Lombok](https://projectlombok.org/): a java library that automatically plugs into your editor and build tools, spicing up your java.
+Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.
+
+
+
 ## Micronaut 3.0.1 Documentation
 
 - [User Guide](https://docs.micronaut.io/3.0.1/guide/index.html)

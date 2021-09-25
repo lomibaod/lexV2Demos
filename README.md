@@ -1,11 +1,11 @@
 # lexV2Demos
 Amazon Lex V2 Demos
 
-# Sample Bot
+## Sample Bot
 
-# Java Lambda
+## Java Lambda
 
 
-# Python Lambda
+## Python Lambda
 
 
