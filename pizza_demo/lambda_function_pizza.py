@@ -20,13 +20,7 @@ def fail(intent_request,error):
     fulfillment_state = "Fulfilled"
     return close(intent_request, get_session_attributes(intent_request), fulfillment_state, message) 
        
-#mock data query against inventory.json instead of a database or using an api call
-def query_data(make,vehicle_type):
-    inventory_path = os.environ['LAMBDA_TASK_ROOT'] + "/inventory.json"
-    content=open(inventory_path).read()
-    inventory_json=json.loads(content)
-    filtered= [v for v in inventory_json if make==v['make'] and vehicle_type==v['type']]
-    return filtered
+
 
 '''''
 === UTIL METHODS ===========================
