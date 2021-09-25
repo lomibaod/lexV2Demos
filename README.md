@@ -26,6 +26,29 @@ to import the bot into your own account:
 Once the import is finished, you will see a new bot in the Bots list called "SampleLexV2Bot" (or whatever you called it)
 
 ## Java Lambda
+### to build from command line/terminal
+to build, navigate to the LexV2LambdaDemoJava directory and then run the following command:
+  - windows: ```gradlew.bat build```
+  - linux/wsl/mac/unix: ``` ./gradlew build```
+after "BUILD SUCCESSFUL" the file to upload to AWS Lambda is ```LexV2LambdaDemo-0.1-all.jar```
+  - windows: located at ```{repo directory}\LexV2LambdaDemoJava\build\libs\LexV2LambdaDemo-0.1-all.jar```
+  - linux/wsl/mac/unix: located at ```{repo directory}/LexV2LambdaDemoJava/build/libs/LexV2LambdaDemo-0.1-all.jar```
+
+### to import into intellij
+0. make sure to have [lombok for intellij](https://projectlombok.org/setup/intellij) installed, and annotation processing is enabled (File ->Settings -> search for annotation processors-> check Enable annotation processing)
+
+1. in intelij, select File>New> Project from existing sources...
+2. select ``{repo directory}/LexV2LambdaDemoJava/build.gradle```
+### to import into eclipse
+0. make sure to have [lombok for eclipse](https://projectlombok.org/setup/eclipse) installed, and annotation proccessing is enabled (project properties -> Annotation Processing -> check Enable annotation processing)
+
+1. select File>Import...
+2. select Gradle from the list
+3. select Existing Gradle project
+4. select Next
+6. select project root directory by clicking the Browse... button and select the directory LexV2LambdaDemoJava
+7. select Gradle Tasks tab, and double click the build task
+
 
 
 ## Python Lambda
