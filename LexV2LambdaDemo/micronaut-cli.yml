@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: net.lomibao
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [ annotation-api, app-name, aws-lambda, aws-lambda-custom-runtime, gradle, http-client, java, junit, logback, readme, shade, yaml ]
