@@ -5,7 +5,7 @@ import os
 import logging
 import traceback
 
-debug=true
+debug=True
 
 
 # on error, return nice message to bot
